@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.*;
 
-public class APITest {
+public class TestTemplateAPI {
 
     private String apiKey;
 

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 
-public class APISampleTest {
+public class TestAPI {
 	
 	@BeforeClass
 	public void setUp() {

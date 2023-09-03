@@ -14,10 +14,10 @@ import com.assigment.base.BaseTest;
 import com.assignment.pages.VisualCrossingPage;
 
 
-public class Sampletest extends BaseTest {
+public class TestUI extends BaseTest {
 	
 	WebDriver driver;
-	Logger log = Logger.getLogger(Sampletest.class);
+	Logger log = Logger.getLogger(TestUI.class);
 	VisualCrossingPage visualPage;
 	Properties prop = new Properties();
 

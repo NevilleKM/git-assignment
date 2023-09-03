@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-03T13:18:39 IST" name="RestAssured Suite" finished-at="2023-09-03T13:18:43 IST" duration-ms="4895">
+  <suite started-at="2023-09-03T18:06:17 IST" name="Default suite" finished-at="2023-09-03T18:06:24 IST" duration-ms="6555">
     <groups>
     </groups>
-    <test started-at="2023-09-03T13:18:39 IST" name="RestAssured test" finished-at="2023-09-03T13:18:43 IST" duration-ms="4895">
-      <class name="com.assignment.tests.APISampleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assignment.tests.APISampleTest@43dac38f]" started-at="2023-09-03T13:18:39 IST" name="setUp" finished-at="2023-09-03T13:18:39 IST" duration-ms="678" status="PASS">
+    <test started-at="2023-09-03T18:06:17 IST" name="Default test" finished-at="2023-09-03T18:06:24 IST" duration-ms="6555">
+      <class name="com.assignment.tests.TestAPI">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assignment.tests.TestAPI@342c38f8]" started-at="2023-09-03T18:06:17 IST" name="setUp" finished-at="2023-09-03T18:06:19 IST" duration-ms="1766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statusCodeVerification()[pri:0, instance:com.assignment.tests.APISampleTest@43dac38f]" started-at="2023-09-03T13:18:39 IST" name="statusCodeVerification" finished-at="2023-09-03T13:18:43 IST" duration-ms="4150" status="PASS">
+        <test-method signature="statusCodeVerification()[pri:0, instance:com.assignment.tests.TestAPI@342c38f8]" started-at="2023-09-03T18:06:19 IST" name="statusCodeVerification" finished-at="2023-09-03T18:06:24 IST" duration-ms="4728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeVerification -->
-      </class> <!-- com.assignment.tests.APISampleTest -->
-    </test> <!-- RestAssured test -->
-  </suite> <!-- RestAssured Suite -->
+      </class> <!-- com.assignment.tests.TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

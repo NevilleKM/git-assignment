@@ -5,13 +5,19 @@
 	<groupId>TestAssignment</groupId>
 	<artifactId>TestAssignmentProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<name>TestAssignmentProject</name>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -64,16 +70,33 @@
 	</dependencies>
 	<profiles>
 		<profile>
+			<id>RestAssuredSuite</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.maven.apache.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.1.0</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFIle>regression.xml</suiteXmlFIle>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
 			<id>UISuite</id>
 			<build>
 				<plugins>
 					<plugin>
 						<groupId>org.maven.apache.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.18.1</version>
+						<version>3.1.0</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFIle>regression.xml</suiteXmlFIle>
+								<suiteXmlFIle>testng.xml</suiteXmlFIle>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

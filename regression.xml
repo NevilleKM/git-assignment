@@ -2,7 +2,7 @@
 <suite name ="RestAssured Suite">
 	<test name = "RestAssured test">
 		<classes>
-			<class name = "com.assignment.tests.APISampleTest"></class>	
+			<class name = "com.assignment.tests.APITest"></class>	
 		</classes>
 	</test>
 </suite>
