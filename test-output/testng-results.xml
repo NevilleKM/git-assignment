@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-03T18:06:17 IST" name="Default suite" finished-at="2023-09-03T18:06:24 IST" duration-ms="6555">
+  <suite started-at="2023-09-08T22:07:04 IST" name="Default suite" finished-at="2023-09-08T22:07:52 IST" duration-ms="48335">
     <groups>
     </groups>
-    <test started-at="2023-09-03T18:06:17 IST" name="Default test" finished-at="2023-09-03T18:06:24 IST" duration-ms="6555">
-      <class name="com.assignment.tests.TestAPI">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assignment.tests.TestAPI@342c38f8]" started-at="2023-09-03T18:06:17 IST" name="setUp" finished-at="2023-09-03T18:06:19 IST" duration-ms="1766" status="PASS">
+    <test started-at="2023-09-08T22:07:04 IST" name="Default test" finished-at="2023-09-08T22:07:52 IST" duration-ms="48335">
+      <class name="com.assignment.tests.UITest">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:06:53 IST" name="setupApplication" finished-at="2023-09-08T22:07:04 IST" duration-ms="10842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method is-config="true" signature="getdriver()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:07:04 IST" name="getdriver" finished-at="2023-09-08T22:07:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:07:04 IST" name="setUp" finished-at="2023-09-08T22:07:25 IST" duration-ms="21101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statusCodeVerification()[pri:0, instance:com.assignment.tests.TestAPI@342c38f8]" started-at="2023-09-03T18:06:19 IST" name="statusCodeVerification" finished-at="2023-09-03T18:06:24 IST" duration-ms="4728" status="PASS">
+        <test-method signature="testWeatherForecast()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:07:25 IST" name="testWeatherForecast" finished-at="2023-09-08T22:07:32 IST" duration-ms="6855" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statusCodeVerification -->
-      </class> <!-- com.assignment.tests.TestAPI -->
+        </test-method> <!-- testWeatherForecast -->
+        <test-method signature="testWeatherForecastinFarenheit()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:07:32 IST" name="testWeatherForecastinFarenheit" finished-at="2023-09-08T22:07:43 IST" duration-ms="11388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeatherForecastinFarenheit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assignment.tests.UITest@5824a83d]" started-at="2023-09-08T22:07:43 IST" name="tearDown" finished-at="2023-09-08T22:07:52 IST" duration-ms="8836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment.tests.UITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
